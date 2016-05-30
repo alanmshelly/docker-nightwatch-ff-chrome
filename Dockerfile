@@ -5,6 +5,9 @@ RUN apt-get update && apt-get install -y \
   curl \
   unzip \
   git
+  
+# install java jdk
+RUN apt-get install -y default-jdk
 
 # install mysql
 RUN apt-get install -y mysql-client
