@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:trusty
 
 # install prerequisites
 RUN apt-get update && apt-get install -y \
